@@ -11,13 +11,13 @@ namespace SERVER_IO
         static async Task Main(string[] args)
         {
             Socket listenerSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPAddress ipaddr = IPAddress.Any;
+            IPAddress ipaddr = IPAddress.Any; 
             IPEndPoint ipep = new IPEndPoint(ipaddr, 8085);
                
             try
             {
                 listenerSocket.Bind(ipep);
-
+                 
                 listenerSocket.Listen(5);
                 Socket client = listenerSocket.Accept();
                 Console.WriteLine("client connected " + "ıp address " + client.RemoteEndPoint.ToString());
