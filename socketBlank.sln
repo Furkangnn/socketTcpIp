@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SERVER_IO", "SERVER_IO\SERV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIENT_IO", "CLIENT_IO\CLIENT_IO.csproj", "{42696529-BBCE-47C7-B589-D769BBC6F266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketFormaApp", "SocketFormaApp\SocketFormaApp.csproj", "{BC698628-E75E-4BAC-B5C3-550FCDD36122}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketFormApp", "SocketFormaApp\SocketFormApp.csproj", "{BC698628-E75E-4BAC-B5C3-550FCDD36122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
