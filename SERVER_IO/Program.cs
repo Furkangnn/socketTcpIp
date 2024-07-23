@@ -12,7 +12,7 @@ namespace SERVER_IO
         {
             Socket listenerSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPAddress ipaddr = IPAddress.Any; 
-            IPEndPoint ipep = new IPEndPoint(ipaddr, 8085);
+            IPEndPoint ipep = new IPEndPoint(ipaddr, 8085); 
                
             try
             {
