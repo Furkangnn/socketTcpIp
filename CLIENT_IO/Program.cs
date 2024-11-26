@@ -16,7 +16,7 @@ namespace CLIENT_IO
             try
             {
                 
-                Console.WriteLine("welcom to client socket starter and enter valid ip addres ");
+                Console.WriteLine("welcome to client socket starter and enter valid ip addres ");
                 string strIpAddr = Console.ReadLine();
 
                 Console.WriteLine("enter port addres ");
